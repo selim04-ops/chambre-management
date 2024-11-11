@@ -1,0 +1,17 @@
+<h2>List of Chambres</h2>
+
+<button class="btn btn-custom mb-3" (click)="createNewChambre()">Add New Chambre</button>
+
+<ol>
+  <li *ngFor="let chambre of chambres">
+    <div>
+      <strong>Chambre Number:</strong> {{ chambre.numeroChambre }}<br>
+      <strong>Type:</strong> {{ chambre.typeC }}
+    </div>
+    <div>
+      <button (click)="deleteChambre(chambre.idChambre)">
+        Delete
+      </button>
+    </div>
+  </li>
+</ol>

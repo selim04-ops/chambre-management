@@ -1,0 +1,14 @@
+<h2>Add a New Chambre</h2>
+<form [formGroup]="chambreForm" (ngSubmit)="addChambre()">
+  <div>
+    <label for="numeroChambre">Numero Chambre:</label>
+    <input id="numeroChambre" formControlName="numeroChambre" type="number" required />
+  </div>
+
+  <div>
+    <label for="typeC">Type Chambre:</label>
+    <input id="typeC" formControlName="typeC" type="text" required />
+  </div>
+
+  <button type="submit">Add Chambre</button>
+</form>

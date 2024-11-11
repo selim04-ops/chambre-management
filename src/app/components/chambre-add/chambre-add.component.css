@@ -1,0 +1,56 @@
+/* Styles for the form */
+form {
+    max-width: 400px; /* Set a maximum width for the form */
+    margin: 20px auto; /* Center the form horizontally */
+    padding: 20px; /* Add padding inside the form */
+    border: 1px solid #ccc; /* Add a border around the form */
+    border-radius: 8px; /* Rounded corners */
+    background-color: #f9f9f9; /* Light background color */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+  }
+  
+  /* Styles for form groups */
+  div {
+    margin-bottom: 15px; /* Space between form groups */
+  }
+  
+  /* Styles for labels */
+  label {
+    display: block; /* Make label take a full line */
+    font-weight: bold; /* Bold font for labels */
+    margin-bottom: 5px; /* Space below labels */
+  }
+  
+  /* Styles for input fields */
+  input {
+    width: 100%; /* Full width for input fields */
+    padding: 10px; /* Padding inside input fields */
+    border: 1px solid #ccc; /* Border for input fields */
+    border-radius: 4px; /* Rounded corners */
+    box-sizing: border-box; /* Include padding in width calculation */
+    transition: border-color 0.3s; /* Smooth transition for focus */
+  }
+  
+  /* Change border color on focus */
+  input:focus {
+    border-color: #007bff; /* Blue border on focus */
+    outline: none; /* Remove outline */
+  }
+  
+  /* Styles for the submit button */
+  button {
+    background-color: #007bff; /* Blue background color */
+    color: white; /* White text color */
+    border: none; /* Remove default border */
+    padding: 10px 15px; /* Padding around button text */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 16px; /* Font size */
+    transition: background-color 0.3s; /* Smooth transition for hover */
+  }
+  
+  /* Change background color on hover */
+  button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
